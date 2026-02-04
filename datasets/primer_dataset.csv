@@ -1,0 +1,321 @@
+ID,SEMESTER,SYSTEM_ID,RESPONSE_CATEGORY_ID,ANSWER_ID,ANSWER_TEXT,ERROR_CATEGORY_ID,ERROR_SUBCATEGORY_ID,FEEDBACK
+151,2021-1,SALON,VARIABLES,151,profesores,MISCONCEPTION,DATA_AS_COMPONENT,"Los profesores son componente porque no me dan ninguna información variable. Un ejemplo: El cielo es un componente de algún sistema, el color del cielo es INFORMACIÓN acerca del componente.,"
+152,2021-1,SALON,VARIABLES,152,estudiantes,MISCONCEPTION,DATA_AS_COMPONENT,"Los estudiantes son componentes. Si pones algo en componentes no deben de repetirse en variables o constantes.,"
+153,2021-1,SALON,VARIABLES,153,Calidad del salon,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+154,2021-1,SALON,CONSTANTS,154,Horario de clases,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Esto es un componente que no hace parte del salón de clase.,"
+155,2021-1,PARQUES,CONSTANTS,155,Total de espacios restantes por recorrer,INCOMPLETE,VARIABLE_AS_CONSTANT,"Cada vez que alguien avanza, ese total de espacios restantes por recorrer debe cambiar.,"
+156,2021-1,SALON,COMPONENTS,156,uniformes,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Esto es un componente que usan los estudiantes, no algo propio del salón.,"
+157,2021-1,SALON,COMPONENTS,157,utiles escolares,OK,OK,
+158,2021-1,SALON,COMPONENTS,158,manera didactica,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+159,2021-1,CONCIERTO_ESTADIO,CONSTANTS,159,Instrumentos,MISCONCEPTION,COMPONENT_AS_DATA,
+160,2021-1,PARQUES,COMPONENTS,160,Estrategias,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+161,2021-1,PARQUES,CONSTANTS,161,Reglas del juego,MISCONCEPTION,COMPONENT_AS_DATA,
+162,2021-1,SALON,VARIABLES,162,cantidad de basura en los botes,INSTRUCTION,DEFICIENT_RESPONSE,
+163,2021-1,SALON,CONSTANTS,163,Lockers,MISCONCEPTION,COMPONENT_AS_DATA,
+164,2021-1,CONCIERTO_ESTADIO,VARIABLES,164,Clima,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+165,2021-1,CONCIERTO_ESTADIO,CONSTANTS,165,Luces,MISCONCEPTION,COMPONENT_AS_DATA,
+166,2021-1,CONCIERTO_ESTADIO,CONSTANTS,166,Equipo de sonido,MISCONCEPTION,COMPONENT_AS_DATA,
+167,2021-1,CONCIERTO_ESTADIO,CONSTANTS,167,Escenario,MISCONCEPTION,COMPONENT_AS_DATA,
+168,2021-1,PARQUES,VARIABLES,168,Numero de veces que se cae en la carcel,OK,OK,
+169,2021-1,PARQUES,CONSTANTS,169,Numero de fichas,INSTRUCTION,DEFICIENT_RESPONSE,"Falta ser específco,"
+170,2021-1,PARQUES,VARIABLES,170,El ganador,MISCONCEPTION,DATA_AS_COMPONENT,
+171,2021-1,PARQUES,VARIABLES,171,indicación de cantidad de desplazamiento,OK,OK,
+172,2021-1,SALON,PURPOSE,172,"Espacio usado para enseñar a estudiantes, conocimientos de materias distintas dictadas  por profesores correspondientes",INSTRUCTION,DEFICIENT_RESPONSE,"Esto es una definición del sistema, no un propósito.,"
+173,2021-1,SALON,PURPOSE,173,"los profesores dan clase a los alumnos y escriben en el tablero. Los estudiantes se sientan en los pupitres, observan la pizarra y prestan atención al maestro, pueden preguntar y hablar entre ellos. El aula contiene a los alumnos, pupitres, profesor y tablero.",OK,OK,
+174,2021-1,SALON,CONSTANTS,174,Salon de clase,MISCONCEPTION,COMPONENT_AS_DATA,"Este es el sistema completo. No es una constante o variable porque no da información. No es un componente porque no es una parte concreta del salón.,"
+175,2021-1,PARQUES,COMPONENTS,175,Carcel,OK,OK,
+176,2021-1,PARQUES,CONSTANTS,176,Tablero,MISCONCEPTION,COMPONENT_AS_DATA,
+177,2021-1,PARQUES,VARIABLES,177,Jugar o no con apuestas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+178,2021-1,PARQUES,PURPOSE,178,Superar los obstaculos del tablero y enemigos con todas las fichas y ganar,INSTRUCTION,DEFICIENT_RESPONSE,"No se especifica como ganar,"
+179,2021-1,PARQUES,INTERACTIONS,179,generar entretenimiento a traves de una competencia,INSTRUCTION,DEFICIENT_RESPONSE,"Se podria detallar mas,"
+180,2021-1,PARQUES,CONSTANTS,180,numero de caras en un dado,OK,OK,
+181,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,181,los musicos y el equipo de sonido hacen un show para el publico,INSTRUCTION,DEFICIENT_RESPONSE,"No se describe claramente como interactuan todos los componentes. Tratar de hacer un análisis más detallado.,"
+182,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,182,"Que el publico al escuchar su artista y/o banda favorita, pueda bailar y cantar su musica mientras interactuan con sus amigos o familiares en el concierto.",INSTRUCTION,DEFICIENT_RESPONSE,"Las interacciones deben incluir de alguna forma todos los componentes,"
+183,2021-1,CONCIERTO_ESTADIO,PURPOSE,183,Que los asistentes puedan disfrutar de las música de los artistas que se están presentando.,OK,OK,
+1,2021-1,PARQUES,COMPONENTS,1,Fichas,OK,OK,
+2,2021-1,PARQUES,COMPONENTS,2,Los dados,OK,OK,
+3,2021-1,PARQUES,COMPONENTS,3,El tablero,OK,OK,
+4,2021-1,PARQUES,COMPONENTS,4,Las reglas del juego,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es un componente esencial para el sistema,"
+5,2021-1,PARQUES,COMPONENTS,5,Los jugadores,OK,OK,
+6,2021-1,PARQUES,COMPONENTS,6,Turnos,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es un componente esencial para el sistema,"
+7,2021-1,PARQUES,COMPONENTS,7,fichas,OK,OK,
+8,2021-1,PARQUES,COMPONENTS,8,tablero,OK,OK,
+9,2021-1,PARQUES,COMPONENTS,9,dados,OK,OK,
+10,2021-1,PARQUES,COMPONENTS,10,jugadores,OK,OK,
+11,2021-1,PARQUES,PURPOSE,11,coronar todas las fichas del jugador recorriendo el tablero,INSTRUCTION,DEFICIENT_RESPONSE,"El proposito describe el objetivo del jugador, no el proposito del sistema de juego.,"
+12,2021-1,PARQUES,PURPOSE,12,Ser el primero en llegar al final. Completar toda la vuelta con todas las fichas. Ganar el juego,INSTRUCTION,DEFICIENT_RESPONSE,"Falta describir el propósito general del juego.,"
+13,2021-1,PARQUES,INTERACTIONS,13,los jugadores usan los dados para mover fichas en el tablero,OK,OK,
+14,2021-1,PARQUES,INTERACTIONS,14,Cada jugador tiene 4 fichas y estas deben dar toda una vuelta para poder llegar a la meta primero,OK,OK,
+15,2021-1,PARQUES,INTERACTIONS,15,El tablero es el territorio de las fichas en el cual van dando los saltos para ir avanzando,OK,OK,
+16,2021-1,PARQUES,INTERACTIONS,16,Tirar los dados para saber la cantidad de espacios que tiene que mover la ficha,OK,OK,
+17,2021-1,PARQUES,CONSTANTS,17,Los dados,MISCONCEPTION,COMPONENT_AS_DATA,"Esto es un componente,"
+18,2021-1,PARQUES,CONSTANTS,18,El tablero,MISCONCEPTION,COMPONENT_AS_DATA,
+19,2021-1,PARQUES,CONSTANTS,19,Las reglas,MISCONCEPTION,COMPONENT_AS_DATA,
+20,2021-1,PARQUES,CONSTANTS,20,Los turnos de la partida,MISCONCEPTION,COMPONENT_AS_DATA,
+21,2021-1,PARQUES,CONSTANTS,21,La meta,MISCONCEPTION,COMPONENT_AS_DATA,
+22,2021-1,PARQUES,VARIABLES,22,La cantidad de jugadores,OK,OK,
+23,2021-1,PARQUES,VARIABLES,23,El número de fichas restantes por cada jugador,OK,OK,
+24,2021-1,PARQUES,VARIABLES,24,El numero de saltos,OK,OK,
+25,2021-1,PARQUES,VARIABLES,25,Los puestos del primero al último en llegar,OK,OK,
+26,2021-1,PARQUES,VARIABLES,26,El primer jugador en llegar,OK,OK,
+27,2021-1,PARQUES,VARIABLES,27,El ultimo jugador en llegar,OK,OK,
+28,2021-1,CONCIERTO_ESTADIO,COMPONENTS,28,instrumentos,OK,OK,
+29,2021-1,CONCIERTO_ESTADIO,COMPONENTS,29,el estadio,OK,OK,
+30,2021-1,CONCIERTO_ESTADIO,COMPONENTS,30,el publico,OK,OK,
+31,2021-1,CONCIERTO_ESTADIO,COMPONENTS,31,la banda,OK,OK,
+32,2021-1,CONCIERTO_ESTADIO,COMPONENTS,32,el genero de la musica,OK,OK,
+33,2021-1,CONCIERTO_ESTADIO,COMPONENTS,33,escenario,OK,OK,
+34,2021-1,CONCIERTO_ESTADIO,COMPONENTS,34,decoraciones,OK,OK,
+35,2021-1,CONCIERTO_ESTADIO,COMPONENTS,35,sistemas de audio,OK,OK,
+36,2021-1,CONCIERTO_ESTADIO,PURPOSE,36,Crear intereses propios para la banda. Generar ganancias economicas. Generar empleo para las personas que colaboran en el estadio. Dar un buen servicio para que los asistentes disfruten el show. Dar una buena presentacion para compartir musica y disfrutar de ella.,OK,OK,
+37,2021-1,CONCIERTO_ESTADIO,PURPOSE,37,"servir como medio de entretenimiento en vivo masivo, donde por medio de música y artistas  musicales hacen un show para que la gente se entretenga",OK,OK,
+38,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,38,La banda toca los instrumentos para crear la musica,OK,OK,
+39,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,39,La banda se presenta en un estadio para tener mas admiradores,OK,OK,
+40,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,40,El estadio genera ingreso con mas personas,OK,OK,
+41,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,41,Los sistemas de audio deben estar funcionando correctamente para que puedan favorecer  a la gente y a la banda,OK,OK,
+42,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,42,El escenario debe ser amplio para que se puedan movilizar al actuar,OK,OK,
+43,2021-1,CONCIERTO_ESTADIO,CONSTANTS,43,La banda,MISCONCEPTION,COMPONENT_AS_DATA,"Cuando se habla de constantes y variables, se habla de información sobre los componentes,"
+44,2021-1,CONCIERTO_ESTADIO,CONSTANTS,44,El genero,MISCONCEPTION,COMPONENT_AS_DATA,
+45,2021-1,CONCIERTO_ESTADIO,CONSTANTS,45,El sistema de audio,MISCONCEPTION,COMPONENT_AS_DATA,
+46,2021-1,CONCIERTO_ESTADIO,CONSTANTS,46,El lugar,MISCONCEPTION,COMPONENT_AS_DATA,
+47,2021-1,CONCIERTO_ESTADIO,VARIABLES,47,Las canciones,MISCONCEPTION,COMPONENT_AS_DATA,
+48,2021-1,CONCIERTO_ESTADIO,VARIABLES,48,El publico,MISCONCEPTION,COMPONENT_AS_DATA,
+49,2021-1,CONCIERTO_ESTADIO,VARIABLES,49,Los instrumentos,MISCONCEPTION,COMPONENT_AS_DATA,"Las variables deben de brindar informacion acerca de los componentes,"
+50,2021-1,CONCIERTO_ESTADIO,VARIABLES,50,El personal,MISCONCEPTION,COMPONENT_AS_DATA,
+51,2021-1,CONCIERTO_ESTADIO,VARIABLES,51,El tiempo,INSTRUCTION,DEFICIENT_RESPONSE,"¿A cuál tiempo se refiere, el que dura el concierto, el tiempo que demoran en entrar las personas, el tiempo por cada cancion que cantan?,"
+52,2021-1,SALON,COMPONENTS,52,Profesor,OK,OK,
+53,2021-1,SALON,COMPONENTS,53,Estudiantes,OK,OK,
+54,2021-1,SALON,COMPONENTS,54,Material,OK,OK,
+55,2021-1,SALON,COMPONENTS,55,La materia,OK,OK,
+56,2021-1,SALON,COMPONENTS,56,Comunicacion,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"La comunicacion no hace parte de un salon, es algo que utilizan las personas,"
+57,2021-1,SALON,COMPONENTS,57,Valores,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+58,2021-1,SALON,COMPONENTS,58,Respeto,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"El respeto no hace parte del salon. Las personas poseen el valor del respeto,"
+59,2021-1,SALON,COMPONENTS,59,Horario,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"El horario no es un elemento presene en el salon,"
+60,2021-1,SALON,PURPOSE,60,Ofrecer un servicio educativo a los estudiantes,OK,OK,
+61,2021-1,SALON,PURPOSE,61,Favorecer a los estudiantes con una educación de alta calidad,OK,OK,
+62,2021-1,SALON,PURPOSE,62,La enseñanza de la moral,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Esto no es el propósito general de un salón de clases,"
+63,2021-1,SALON,PURPOSE,63,Satisfacer el tiempo del profesor,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Esta no es la razón por la cual uno va al salón de clase,"
+64,2021-1,SALON,INTERACTIONS,64,El profesor le enseña a los estudiantes,OK,OK,
+65,2021-1,SALON,INTERACTIONS,65,El profesor enseña la materia,OK,OK,
+66,2021-1,SALON,INTERACTIONS,66,Los estudiantes siguen el horario,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"El horario no es un componente esencial del sistema,"
+67,2021-1,SALON,INTERACTIONS,67,Los estudiantes siguen las reglas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Las reglas no son un parte necesaria para el funcionamiento del sistema,"
+68,2021-1,SALON,CONSTANTS,68,La clase,MISCONCEPTION,COMPONENT_AS_DATA,"Esto es un componente,"
+69,2021-1,SALON,CONSTANTS,69,Las reglas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Las reglas no son un componente, ni una variable, ni una constante. No hacen parte del sistema,"
+70,2021-1,SALON,CONSTANTS,70,El tiempo,INSTRUCTION,DEFICIENT_RESPONSE,"¿El tiempo de una clase, el tiempo de la jornada de estudio, el tiempo de la jornada transcurrido? No es claro,"
+71,2021-1,SALON,VARIABLES,71,El numero de materiales,OK,OK,
+72,2021-1,SALON,VARIABLES,72,El numero de estudiantes,OK,OK,
+73,2021-1,SALON,VARIABLES,73,Los profesores,MISCONCEPTION,DATA_AS_COMPONENT,"Los profesores son un componente. Las variables son información acerca de los componentes que cambia a través del tiempo, por ejemplo: la cantidad de profesores que hay presentes en el salón,"
+74,2021-2,DOMINO,PURPOSE,74,Juego de mesa para entretener,INSTRUCTION,DEFICIENT_RESPONSE,"Tratar de ser más detallado con la información. A quién le sirve este sistema o cómo afecta o influye en los componentes.,"
+75,2021-2,DOMINO,COMPONENTS,75,Reglas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No son un componente que se modele dentro del sistema, normalmente hacen parte de la lógica (cómo se comporta el sistema),"
+76,2021-2,DOMINO,INTERACTIONS,76,"Al inicio del juego, las fichas se mezclan y los participantes toman sus fichas. La partida comienza según el valor de las fichas de los jugadores. Los turnos se realizan en un orden establecido y cada jugador coloca fichas compatibles en la mesa. El juego finaliza cuando uno de los participantes logra colocar todas sus fichas.",OK,OK,
+77,2021-2,DOMINO,CONSTANTS,77,Cantidad de fichas totales,OK,OK,
+78,2021-2,DOMINO,CONSTANTS,78,Color de las fichas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es relevante para el sistema,"
+79,2021-2,DOMINO,CONSTANTS,79,Forma de las fichas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es relevante para el sistema,"
+80,2021-2,DOMINO,CONSTANTS,80,Capacidad de jugadores por partida,OK,OK,
+81,2021-2,DOMINO,VARIABLES,81,Jugador en turno,OK,OK,
+82,2021-2,DOMINO,VARIABLES,82,Posicion actual de una ficha,OK,OK,
+83,2021-2,ASCENSORES,PURPOSE,83,sistema que facilita la movilización del edificio,OK,OK,
+84,2021-2,ASCENSORES,COMPONENTS,84,Cabina,OK,OK,
+85,2021-2,ASCENSORES,COMPONENTS,85,Partes del funcionamiento,INSTRUCTION,DEFICIENT_RESPONSE,"¿Cuáles son las partes necesarias para funcionar? Hay que detallar,"
+86,2021-2,ASCENSORES,INTERACTIONS,86,las personas entran a la cabina donde presionan un botón en cuadro de mando luego se cierra el operador de puerta que hace parte esencial para el funcionamiento del ascensor luego el ascensor se pone en marcha (arriba o abajo) gracias a la interacción que tienen las partes para el funcionamiento del ascensor.,OK,OK,
+87,2021-2,ASCENSORES,CONSTANTS,87,Capacidad de la cabina,OK,OK,
+88,2021-2,DOMINO,PURPOSE,88,"Brindar un espacio de diversion, en el cual varias personas puedan jugar, distraerse, y compartir  con sus amigos",OK,OK,
+89,2021-2,DOMINO,COMPONENTS,89,Jugadores,OK,OK,
+90,2021-2,DOMINO,COMPONENTS,90,Fichas,OK,OK,
+91,2021-2,DOMINO,COMPONENTS,91,Mesa,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+92,2021-2,DOMINO,COMPONENTS,92,Material de anotacion de puntos,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+93,2021-2,DOMINO,VARIABLES,93,Nombre de jugadores,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Los nombres no son relevantes para el funcionamiento del sistema.,"
+94,2021-2,DOMINO,VARIABLES,94,Cantidad de jugadores,INSTRUCTION,DEFICIENT_RESPONSE,"No se especifica qué jugadores. ¿Jugadores que ya ganaron, jugadores que faltan por ganar, jugadores actualmente, máximo de jugadores por partida? ¿Cuál?,"
+95,2021-2,DOMINO,VARIABLES,95,Puntaje,OK,OK,
+96,2021-2,DOMINO,VARIABLES,96,Rondas jugadas,OK,OK,
+97,2021-2,DOMINO,VARIABLES,97,Fichas en mano,OK,OK,
+98,2021-2,DOMINO,VARIABLES,98,Fichas en juego,OK,OK,
+99,2021-2,DOMINO,VARIABLES,99,Fichas por ronda,OK,OK,
+100,2021-2,DOMINO,CONSTANTS,100,Numero de fichas,INSTRUCTION,DEFICIENT_RESPONSE,"Existen varios datos relacionados al número de fichas: número de fichas restantes por jugador, número de fichas en la meta, etc. No se especifica a qué se refiere.,"
+101,2021-2,DOMINO,CONSTANTS,101,Cantidad de jugadores totales,OK,OK,
+102,2021-2,DOMINO,CONSTANTS,102,Nombre del jugador,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es relevante para la abstraccion del sistema,"
+103,2021-2,DOMINO,CONSTANTS,103,Posicion en mesa del jugador,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es relevante para la abstraccion del sistema,"
+104,2021-2,DOMINO,CONSTANTS,104,Capacidad de la mesa,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es relevante para la abstraccion del sistema,"
+105,2021-2,DOMINO,CONSTANTS,105,Tipo de mesa,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"El sistema funciona independientemente del tipo de mesa,"
+106,2021-1,DOMINO,INTERACTIONS,106,primero se inicia el juego ubicandose los jugadores en la mesa donde se encuentran las fichas listas para ser repartidas y acuerdan reglas,INSTRUCTION,DEFICIENT_RESPONSE,"La interaccion no describe claramente como interactuan todos los componentes del sistema.,"
+107,2021-1,DOMINO,VARIABLES,107,cantidad de fichas para cada jugador,INCOMPLETE,CONSTANT_AS_VARIABLE,"Las fichas que debe tener cada jugador durante la partida siempre son las mismas,"
+108,2021-1,DOMINO,VARIABLES,108,fichas que tiene cada jugador,INCOMPLETE,CONSTANT_AS_VARIABLE,"Las fichas que tiene cada jugador durante la partida siempre son las mismas,"
+109,2021-1,DOMINO,VARIABLES,109,listado de reglas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Las reglas no son ni un componente ni informacion asociada a un componente. Describen la lógica del juego.,"
+110,2021-1,DOMINO,VARIABLES,110,tipo de mesa,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es informacion relevante para abstraer el sistema.,"
+111,2021-1,BIBLIOTECA,PURPOSE,111,lugar tranquilo con libros con fines academicos y de entretenimiento,OK,OK,
+112,2021-1,BIBLIOTECA,COMPONENTS,112,mesas,OK,OK,
+113,2021-1,BIBLIOTECA,COMPONENTS,113,libros,OK,OK,
+114,2021-1,BIBLIOTECA,COMPONENTS,114,bibliotecarias,OK,OK,
+115,2021-1,BIBLIOTECA,COMPONENTS,115,vigilantes,OK,OK,
+116,2021-1,BIBLIOTECA,INTERACTIONS,116,las personas buscan libros se ubican en mesas y solicitan prestamos,OK,OK,
+117,2021-2,DOMINO,INTERACTIONS,117,"Se asigna un jugador que revuelva las fichas, cada jugador toma 7 fichas. Inicia la ronda el jugador que tenga la ficha con el doble mas alto. En caso de que ninguno tenga dobles, comenzara el que tenga la ficha mas alta. Los jugadores continua por turnos al contrario de las manecillas del reloj. Gana la persona que tire todas sus fichas.",OK,OK,
+118,2021-2,PUNTO_COVID,PURPOSE,118,"Los jugadores empiezan escogiendo fichas aleatoriamente para despues empezar a juagr de acuerdo a los numeros de las mismas. Mientras avanza el juego, se ven diversas situaciones como la acción de “comer” que es añadir una ficha del montón si las que escogiste previamente no te permiten seguir jugando",OK,OK,"Podrías haber incluido más componentes.,"
+119,2021-2,PUNTO_COVID,PURPOSE,119,"Vacunar de forma eficaz, ordenada, y segura, a las personas de un territorio determinado, con la vacuna contra el covid-19, la dosis que cada punto brinda para las personas, depende del tipo de vacuna que esten utilizando.",OK,OK,
+120,2021-2,PUNTO_COVID,COMPONENTS,120,Personas,OK,OK,
+121,2021-2,PUNTO_COVID,COMPONENTS,121,Vacunas,OK,OK,
+122,2021-2,PUNTO_COVID,COMPONENTS,122,Vacunadores,OK,OK,
+123,2021-2,PUNTO_COVID,COMPONENTS,123,Mesas de vacunación,OK,OK,
+124,2021-2,PUNTO_COVID,COMPONENTS,124,Jeringas,OK,OK,
+125,2021-2,PUNTO_COVID,INTERACTIONS,125,"El cliente llega al punto de vacunación donde se le es asignado un turno para el cual  tiene que esperar a ser atendido. Al ser llamado, el personal medico empieza su trabajo el cual es  informar al cliente y mostrarle los componentes a ser usados como la vacuna (liquido) y la jeringa  a ser usada. Por último, el cliente recibe la vacuna y regresa a su residencia.",OK,OK,
+126,2021-2,PUNTO_COVID,INTERACTIONS,126,"Las personas deben consultar en la pagina, cuando y donde les corresponde vacunarse, asegurarse de que no tiene sintomas de covid-19 o alguna patología que genere efectos secundarios, dirigirse al lugar asignado, siguiendo los protocolos de bioseguridad, y dejar que el medico lo vacune",OK,OK,
+127,2021-2,BIBLIOTECA,PURPOSE,127,"Facilitarles a las personas un espacio adecuado donde puedan leer y tener acceso a diferentes tipos de libros, artículos, etc",OK,OK,
+128,2021-2,BIBLIOTECA,COMPONENTS,128,Personas,OK,OK,
+129,2021-2,BIBLIOTECA,COMPONENTS,129,Mesas,OK,OK,
+130,2021-2,BIBLIOTECA,COMPONENTS,130,Libros,OK,OK,
+131,2021-2,BIBLIOTECA,COMPONENTS,131,Administrador,INSTRUCTION,DEFICIENT_RESPONSE,"Tal vez quisiste decir el personal de la biblioteca o personas que trabajan allí.,"
+132,2021-2,BIBLIOTECA,COMPONENTS,132,Computadores,OK,OK,
+133,2021-2,BIBLIOTECA,COMPONENTS,133,Panel de búsqueda,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es un objeto relevante para el sistema,"
+134,2021-2,BIBLIOTECA,VARIABLES,134,Número de personas,OK,OK,
+135,2021-2,BIBLIOTECA,VARIABLES,135,Número de libros disponibles,OK,OK,
+136,2021-2,BIBLIOTECA,COMPONENTS,136,salas,OK,OK,
+137,2021-2,BIBLIOTECA,COMPONENTS,137,casilleros,OK,OK,
+138,2021-2,BIBLIOTECA,COMPONENTS,138,personas,OK,OK,
+139,2021-2,ASCENSORES,PURPOSE,139,Facilitar la movilidad de personas dentro de un edificio con varios pisos mediante un sistema tecnologico y de alta eficacia,OK,OK,
+140,2021-2,ASCENSORES,COMPONENTS,140,Ascensores,INSTRUCTION,DEFICIENT_RESPONSE,
+141,2021-2,ASCENSORES,COMPONENTS,141,Personas,OK,OK,
+142,2021-2,ASCENSORES,INTERACTIONS,142,"La persona llega al ascensor, este se abre, la persona entra, selecciona el piso al que va, el ascensor mediante un complejo sistema de poleas lo lleva al piso indicado, y finalmente la persona se baja",OK,OK,
+143,2021-2,ASCENSORES,CONSTANTS,143,Pisos del edificio,OK,OK,
+144,2021-2,ASCENSORES,CONSTANTS,144,Ubicacion,INSTRUCTION,DEFICIENT_RESPONSE,
+145,2021-2,ASCENSORES,CONSTANTS,145,Administracion,INSTRUCTION,DEFICIENT_RESPONSE,
+146,2021-2,ASCENSORES,CONSTANTS,146,Capacidad del ascensor,OK,OK,
+147,2021-2,ASCENSORES,CONSTANTS,147,Nombre de la persona,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"El nombre del usuario no es relevante para el funcionamiento del sistema,"
+148,2021-2,ASCENSORES,CONSTANTS,148,Identificación de la persona,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"La identificación de la persona no es relevante para el funcionamiento del sistema,"
+149,2021-2,ASCENSORES,VARIABLES,149,Peso de las personas,INSTRUCTION,DEFICIENT_RESPONSE,
+150,2021-1,PARQUES,VARIABLES,150,la cantidad de tiros necesarios para llegar a la meta,OK,OK,
+184,2021-1,PARQUES,CONSTANTS,184,Tablero,MISCONCEPTION,COMPONENT_AS_DATA,"El tablero es un componente del sistema, no una constante.,"
+185,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,185,"Los instrumentos generan sonidos al ser usados por los musicos, estos sonidos resultan agradables al oido humano",INSTRUCTION,DEFICIENT_RESPONSE,"El oido humano no fue puesto como componente,"
+186,2021-1,PARQUES,INTERACTIONS,186,Los jugadores usan las fichas las cuales mueven con el dado,INSTRUCTION,DEFICIENT_RESPONSE,"Las fichas se mueven con el dado?,"
+187,2021-1,SALON,VARIABLES,187,Sillas,MISCONCEPTION,COMPONENT_AS_DATA,
+188,2021-1,SALON,VARIABLES,188,Mesas,MISCONCEPTION,COMPONENT_AS_DATA,
+189,2021-1,SALON,VARIABLES,189,la informacion o temas que da el profesor,MISCONCEPTION,DATA_AS_COMPONENT,"Cuando se habla de constantes y variables se está hablando de información sobre los componentes,"
+190,2021-1,SALON,CONSTANTS,190,tarro de basura,MISCONCEPTION,COMPONENT_AS_DATA,"Esto sería un componente, y no es esencial para el sistema.,"
+191,2021-1,CONCIERTO_ESTADIO,PURPOSE,191,Ofrecer un servicio de entretenimiento,INSTRUCTION,DEFICIENT_RESPONSE,"Demasiado general,"
+192,2021-1,CONCIERTO_ESTADIO,COMPONENTS,192,Electronica,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+193,2021-1,PARQUES,COMPONENTS,193,Matematicas,INSTRUCTION,DEFICIENT_RESPONSE,
+194,2021-1,PARQUES,PURPOSE,194,Obtener un ganador,INSTRUCTION,DEFICIENT_RESPONSE,
+195,2021-1,CONCIERTO_ESTADIO,COMPONENTS,195,Cantante,OK,OK,
+196,2021-1,SALON,VARIABLES,196,posicion de los pupitres,OK,OK,
+197,2021-1,PARQUES,PURPOSE,197,"El proposito del parques es ganar y para conseguir esto todas las fichas tienen que salir de la carcel para ir avanzando por todas las casillas que se encuentran en el tablero hasta llegar al Cielo, todas las fichas se mueven por medio de los dados.",OK,OK,
+198,2021-1,CONCIERTO_ESTADIO,CONSTANTS,198,Las constantes en un concierto es que siempre se va a buscar entretener al publico por medio de musica,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Se pone el proposito como constante,"
+199,2021-1,SALON,INTERACTIONS,199,El profesor les enseña a los estudiantes,INSTRUCTION,DEFICIENT_RESPONSE,
+200,2021-1,PARQUES,PURPOSE,200,Los jugadores deben mover sus piezas hasta lograr subir todas a la meta para ganar,INSTRUCTION,DEFICIENT_RESPONSE,"Ese es el proposito del jugador, no del sistema,"
+201,2021-1,PARQUES,PURPOSE,201,Tarima,OK,OK,
+202,2021-1,PARQUES,PURPOSE,202,Publico,OK,OK,
+203,2021-1,SALON,COMPONENTS,203,Pupitres,OK,OK,
+204,2021-1,SALON,COMPONENTS,204,Profesor,OK,OK,
+205,2021-1,SALON,COMPONENTS,205,Tablero,OK,OK,
+206,2021-1,SALON,COMPONENTS,206,Estudiante,OK,OK,
+207,2021-1,SALON,CONSTANTS,207,Cantidad de pupitres,OK,OK,
+208,2021-1,SALON,VARIABLES,208,Profesor,MISCONCEPTION,COMPONENT_AS_DATA,
+209,2021-1,SALON,CONSTANTS,209,estudiantes,MISCONCEPTION,DATA_AS_COMPONENT,"Los estudiantes son componentes. Si pones algo en componentes no deben de repetirse en variables o constantes.,"
+210,2021-1,SALON,CONSTANTS,210,Salon,MISCONCEPTION,COMPONENT_AS_DATA,"Este es el sistema completo. No da información.,"
+211,2021-1,PARQUES,CONSTANTS,211,Mesa en que se juega,MISCONCEPTION,COMPONENT_AS_DATA,
+212,2021-1,PARQUES,VARIABLES,212,Fichas,MISCONCEPTION,COMPONENT_AS_DATA,
+213,2021-1,PARQUES,INTERACTIONS,213,"En el caso de que una ficha de un jugador se coloque en un lugar en la que hay otra ficha de otro jugador, se “atrapa” la ficha que ya estaba ahi y se activa la disponibilidad de sacarla de ese estado, usualmente sacando un resultado de dos dados con el mismo lado en el turno del jugador que necesite rescatar tal ficha.",INSTRUCTION,DEFICIENT_RESPONSE,"Interacciones no es lo mismo que instrucciones del sistema,"
+214,2021-1,SALON,PURPOSE,214,"Existe para tener un espacio especializado en ambientes académicos para poder asistir a sesiones de clase de una variedad de temas que el estudiante pueda ver, con sus respectivos profesores.",OK,OK,
+215,2021-1,CONCIERTO_ESTADIO,CONSTANTS,215,Equipo de audio,MISCONCEPTION,COMPONENT_AS_DATA,
+216,2021-1,CONCIERTO_ESTADIO,VARIABLES,216,Cantante,MISCONCEPTION,COMPONENT_AS_DATA,
+217,2021-1,CONCIERTO_ESTADIO,VARIABLES,217,Asistentes,MISCONCEPTION,COMPONENT_AS_DATA,
+218,2021-1,PARQUES,CONSTANTS,218,Dados,MISCONCEPTION,COMPONENT_AS_DATA,"Los dados son componentes, no informacion constante.,"
+219,2021-1,PARQUES,COMPONENTS,219,Numero de jugadores,MISCONCEPTION,DATA_AS_COMPONENT,
+220,2021-1,CONCIERTO_ESTADIO,CONSTANTS,220,estadio,MISCONCEPTION,COMPONENT_AS_DATA,
+221,2021-1,CONCIERTO_ESTADIO,VARIABLES,221,Efectos visuales,MISCONCEPTION,COMPONENT_AS_DATA,
+222,2021-1,SALON,CONSTANTS,222,Paredes del salon,MISCONCEPTION,COMPONENT_AS_DATA,"Esto no brinda información acerca de los componentes del sistema.,"
+223,2021-1,SALON,COMPONENTS,223,Ventanas,OK,OK,
+224,2020-2,BUSCAMINAS,VARIABLES,224,jugadores,MISCONCEPTION,COMPONENT_AS_DATA,"Los jugadores son componentes, no informacion variable,"
+225,2021-1,PARQUES,VARIABLES,225,Dado,MISCONCEPTION,COMPONENT_AS_DATA,
+226,2021-1,PARQUES,INTERACTIONS,226,"JUGADOR: es el que interactúa con todas las piezas del juego y toma las decisiones. TABLERO: donde se ponen las fichas y se tiran los dados. Dados: se encargan de decirle al jugador cuanto debe avanzar una ficha dependiendo del número que salga. Fichas: su principal función es llegar a la meta para terminar el juego, además de esto le permiten al jugador saber en qué parte del tablero están sus fichas.",INSTRUCTION,DEFICIENT_RESPONSE,"Entonces así serían funciones,"
+227,2021-1,PARQUES,VARIABLES,227,La forma de las fichas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+228,2021-1,CONCIERTO_ESTADIO,PURPOSE,228,Entretener y divertir al público,INSTRUCTION,DEFICIENT_RESPONSE,"Demasiado general,"
+229,2021-1,CONCIERTO_ESTADIO,CONSTANTS,229,Numero de canciones,INCOMPLETE,VARIABLE_AS_CONSTANT,"El número de canciones que canta el artista o la banda pueden cambiar,"
+230,2021-1,CONCIERTO_ESTADIO,CONSTANTS,230,boletos,MISCONCEPTION,COMPONENT_AS_DATA,
+231,2020-2,BUSCAMINAS,CONSTANTS,231,Tiempo minimo para encontrar las minas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"La respuesta refleja algo incorrecto de la abstracción del juego.,"
+232,2020-2,PARQUEADERO,CONSTANTS,232,Numero de puestos que habran,INSTRUCTION,DEFICIENT_RESPONSE,"¿Número de puestos en total o diponibles?,"
+233,2020-2,CURSO,CONSTANTS,233,Cantidad de actividades que se haran,INSTRUCTION,DEFICIENT_RESPONSE,"Las actividades varían dependiendo de cómo le vaya al curso en el semestre,"
+234,2020-2,CURSO,VARIABLES,234,Fechas de los parciales,OK,OK,
+235,2020-2,PARQUEADERO,VARIABLES,235,Marca de carros,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es información relevante,"
+236,2020-2,CURSO,VARIABLES,236,Nombres de los estudiantes,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es información relevante,"
+237,2020-2,PARQUEADERO,CONSTANTS,237,Horario de atencion,INSTRUCTION,DEFICIENT_RESPONSE,"Se puede definir como horario de inicio y hora de cierre,"
+238,2020-2,PARQUEADERO,VARIABLES,238,Puertas del parking,INSTRUCTION,DEFICIENT_RESPONSE,"No se entiende a qué se reifere con la variable,"
+239,2020-2,CURSO,CONSTANTS,239,Alumnos inscritos,INCOMPLETE,VARIABLE_AS_CONSTANT,"Los alumnos inscritos pueden cambiar en el semestres,"
+240,2020-2,BUSCAMINAS,CONSTANTS,240,Modo de juego,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"La respuesta no es importante en el juego.,"
+241,2020-2,BUSCAMINAS,CONSTANTS,241,Forma de morir,INSTRUCTION,DEFICIENT_RESPONSE,"No es un dato relevante en el juego.,"
+242,2020-2,BUSCAMINAS,CONSTANTS,242,Pistas,INSTRUCTION,DEFICIENT_RESPONSE,"No se define un concepto de las pistas que aparecen,"
+243,2020-2,BUSCAMINAS,VARIABLES,243,Tipo de jugador,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es información relevante,"
+244,2020-2,BUSCAMINAS,VARIABLES,244,Tablero,INSTRUCTION,DEFICIENT_RESPONSE,"No define específicamente a que se refiere con ""Tablero"","
+245,2020-2,PARQUEADERO,CONSTANTS,245,Posicion parqueadero,INSTRUCTION,DEFICIENT_RESPONSE,"¿Posición de la locación? ¿Ordenamiento de los espacios de parqueo? ¿Ubicación del parqueadero?,"
+246,2020-2,PARQUEADERO,CONSTANTS,246,Numeracion espacios,INSTRUCTION,DEFICIENT_RESPONSE,"¿Numeración de cada espacio de parqueo?,"
+247,2020-2,PARQUEADERO,CONSTANTS,247,Señales del parqueadero,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"A pesar de que no se entiende, no representa información relevante,"
+248,2020-2,PARQUEADERO,VARIABLES,248,Numero de carros,INSTRUCTION,DEFICIENT_RESPONSE,"¿Cantidad de carro en el parqueadero?,"
+249,2020-2,CURSO,CONSTANTS,249,Profesor,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"¿Es relevante para dar información del curso?,"
+250,2020-2,CURSO,CONSTANTS,250,Universidad,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"¿Es relevante para dar información del curso?,"
+251,2020-2,CURSO,VARIABLES,251,Plataformas para la clase,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+252,2020-2,BUSCAMINAS,CONSTANTS,252,Numeros posibles en casillas,INSTRUCTION,DEFICIENT_RESPONSE,"No se entiende a qué hacen refencia los números,"
+253,2020-2,BUSCAMINAS,VARIABLES,253,Restricciones y cuadrados adyacentes descubiertos,INSTRUCTION,DEFICIENT_RESPONSE,"No se entiende a qué se hace referencia con el texto.,"
+254,2020-2,BUSCAMINAS,VARIABLES,254,Combinaciones de minas con numeros de casillas,INSTRUCTION,DEFICIENT_RESPONSE,"¿A qué se reifere con combinaciones compatibles?,"
+255,2020-2,PARQUEADERO,CONSTANTS,255,Tamaño espacios de parqueo,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"¿El tamaño influye en el compartamiento del sistema?,"
+256,2020-2,PARQUEADERO,CONSTANTS,256,Salario del personal,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+257,2020-2,PARQUEADERO,CONSTANTS,257,Cantidad del personal,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+258,2020-2,PARQUEADERO,VARIABLES,258,Tipo de vehículos,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+259,2020-2,PARQUEADERO,VARIABLES,259,Mantenimiento de espacios,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+260,2020-2,PARQUEADERO,VARIABLES,260,Identidad del personal,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+261,2020-2,CURSO,CONSTANTS,261,"Horario, horas totales por semana",INSTRUCTION,DEFICIENT_RESPONSE,"El horario de la clase y las horas totales por semana son conceptos que deben ir separadaos.,"
+262,2020-2,CURSO,CONSTANTS,262,Profesor y monitor,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+263,2020-2,CURSO,CONSTANTS,263,Plataforma de la clase,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+264,2020-2,CURSO,VARIABLES,264,Enfoque por actividad,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+265,2020-2,PARQUEADERO,VARIABLES,265,Identificación de autos,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+266,2020-2,PARQUEADERO,CONSTANTS,266,Pisos,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+267,2020-2,PARQUEADERO,CONSTANTS,267,Material,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+268,2020-2,BUSCAMINAS,VARIABLES,268,Numero en casilla,INSTRUCTION,DEFICIENT_RESPONSE,"No se entiende a qué hace referencia el número que se menciona,"
+269,2020-2,BUSCAMINAS,CONSTANTS,269,Casillas por toque,INSTRUCTION,DEFICIENT_RESPONSE,"¿A qué se refiere con toque en la casilla?,"
+270,2020-2,BUSCAMINAS,CONSTANTS,270,Jugadores,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+271,2020-2,CURSO,VARIABLES,271,Delay de la transmision,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+272,2020-2,CURSO,CONSTANTS,272,Capacidad maxima,INSTRUCTION,DEFICIENT_RESPONSE,"¿Cupo máximo de la clase? ¿Capacidad máxima de la reunión?,"
+273,2020-2,CURSO,CONSTANTS,273,Profesores,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+274,2020-2,CURSO,CONSTANTS,274,Facultad,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+275,2020-2,PARQUEADERO,CONSTANTS,275,Altura maxima,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+276,2020-2,PARQUEADERO,CONSTANTS,276,Tipo de vehiculos,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+277,2020-2,PARQUEADERO,CONSTANTS,277,Cantidad empleados,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+278,2020-2,PARQUEADERO,VARIABLES,278,Cantidad de usuarios,INSTRUCTION,DEFICIENT_RESPONSE,"¿Cantidad de usuarios es cantidad de carros?,"
+279,2020-2,PARQUEADERO,VARIABLES,279,Tiempo de estadía de cada usuario,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+280,2020-2,PARQUEADERO,VARIABLES,280,Identidad de los empleados,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+281,2020-2,CURSO,CONSTANTS,281,Temarios,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+282,2020-2,CURSO,CONSTANTS,282,Horario,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+283,2020-2,CURSO,CONSTANTS,283,Cantidad de estudiantes,INSTRUCTION,DEFICIENT_RESPONSE,"¿Cantidad de estudiantes matriculados? ¿Cupos disponibles?,"
+284,2020-2,CURSO,CONSTANTS,284,Profesor,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+285,2020-2,CURSO,CONSTANTS,285,Monitor,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+286,2021-2,DOMINO,PURPOSE,286,entretenimiento,INSTRUCTION,DEFICIENT_RESPONSE,"Muy general. Falta informacion. El proposito debe decir para que sirve el sistema o para que se utilizan sus componentes. Cual es el fin.,"
+287,2021-2,DOMINO,INTERACTIONS,287,los jugadores empiezan escogiendo fichas aleatoriamente para despues empezar a jugar de acuerdo a los numeros de las mismas,INSTRUCTION,DEFICIENT_RESPONSE,"Podrias haber incluido mas componentes.,"
+288,2021-2,DOMINO,CONSTANTS,288,numero de piezas,INSTRUCTION,DEFICIENT_RESPONSE,"El numero de piezas puede referirse a muchas cosas. Hay que ser especificos: numero de fichas totales, numero de fichas por cada jugador al iniciar la partida, etc.,"
+289,2021-2,DOMINO,VARIABLES,289,numero que se encuentran en ambos lados de las piezas,INCOMPLETE,CONSTANT_AS_VARIABLE,"Los numeros que se encuentran en las piezas siempre son los mismos una vez se establecen.,"
+290,2021-2,PUNTO_COVID,CONSTANTS,290,numero de vacunas,INSTRUCTION,DEFICIENT_RESPONSE,"Hay que ser especificos con el numero de vacunas, pues se entienden varias cosas: numero de vacunas restantes, numero de vacunas disponibles, cual.,"
+291,2021-2,PUNTO_COVID,CONSTANTS,291,codigo numero de id,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Las jeringas no tienen id.,"
+292,2021-2,PUNTO_COVID,VARIABLES,292,tipo de personal,INSTRUCTION,DEFICIENT_RESPONSE,"No se entiende que es un tipo de personal.,"
+293,2021-2,PUNTO_COVID,CONSTANTS,293,listado de personal,MISCONCEPTION,COMPONENT_AS_DATA,"Esto no es un dato, no es variable ni constante.,"
+294,2021-2,PUNTO_COVID,CONSTANTS,294,autorizacion de vacuna,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Esto no es relevante para la abstraccion.,"
+295,2021-2,ASCENSORES,CONSTANTS,295,numero de viviendas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Esto no es relevante para el sistema de ascensores.,"
+296,2021-2,ASCENSORES,VARIABLES,296,habitantes,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"Esto no es relevante para el sistema de ascensores, tal vez capacidad del ascensor o numero de personas dentro del ascensor.,"
+297,2021-2,BIBLIOTECA,VARIABLES,297,categorias genero,INCOMPLETE,CONSTANT_AS_VARIABLE,"El genero de un libro siempre es el mismo, es una constante no una variable.,"
+298,2021-2,BIBLIOTECA,VARIABLES,298,autor,INCOMPLETE,CONSTANT_AS_VARIABLE,"Aunque el autor es diferente para cada libro, no lo hace variable. El autor de un libro siempre es el mismo.,"
+299,2021-2,BIBLIOTECA,VARIABLES,299,idioma,INCOMPLETE,CONSTANT_AS_VARIABLE,"Aunque el idioma es diferente para cada libro, no lo hace variable. El idioma de un libro siempre es el mismo.,"
+300,2021-2,BIBLIOTECA,VARIABLES,300,sistema operativo,INCOMPLETE,CONSTANT_AS_VARIABLE,"El sistema operativo siempre es constante para un computador.,"
+301,2021-2,BIBLIOTECA,VARIABLES,301,marca,INCOMPLETE,CONSTANT_AS_VARIABLE,"La marca siempre es constante para un computador.,"
+302,2021-2,DOMINO,COMPONENTS,302,piezas de domino: pieza de un rectangulo uniforme con dos valores numericos del 0-6 en cada lado,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es necesario poner la descripcion de los componentes. Mejor hubiera sido poner mas componentes.,"
+303,2021-2,DOMINO,COMPONENTS,303,valores de cada pieza,MISCONCEPTION,DATA_AS_COMPONENT,"Esto no es un componente, es información acerca de un componente (la pieza).,"
+304,2021-2,DOMINO,VARIABLES,304,el orden en el cual se sacan las piezas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+305,2021-2,DOMINO,VARIABLES,305,el lugar en la superficie donde se colocan las piezas,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,
+306,2021-2,DOMINO,CONSTANTS,306,los 28 dominos en el juego,OK,OK,
+307,2021-2,DOMINO,CONSTANTS,307,los 7 dominos que se reparten a cada jugador al inicio del juego,OK,OK,
+308,2021-2,PUNTO_COVID,CONSTANTS,308,componente de la vacuna,INSTRUCTION,DEFICIENT_RESPONSE,"No se entiende qué componente de la vacuna.,"
+309,2021-2,PUNTO_COVID,VARIABLES,309,edad del usuario,INCOMPLETE,CONSTANT_AS_VARIABLE,"Las edades entre los usuarios son diferentes. Pero la edad para un usuario permanece igual, es una constante.,"
+310,2021-2,PUNTO_COVID,VARIABLES,310,sintomas medicos,OK,OK,
+311,2021-2,PUNTO_COVID,VARIABLES,311,validez del usuario,INCOMPLETE,CONSTANT_AS_VARIABLE,"Así como lo describes, la valides de cada usuario cambia entre ellos, pero siempre es la misma para el usuario.,"
+312,2021-2,ASCENSORES,COMPONENTS,312,usuarios,OK,OK,
+313,2021-2,ASCENSORES,VARIABLES,313,material,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es relevante para el sistema,"
+314,2021-2,BIBLIOTECA,COMPONENTS,314,identificacion de cada libro,MISCONCEPTION,DATA_AS_COMPONENT,"Esto es una constante.,"
+315,2021-2,BIBLIOTECA,COMPONENTS,315,sistema de busqueda,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,"No es relevante.,"
+316,2021-2,BIBLIOTECA,CONSTANTS,316,tiempo limite,INSTRUCTION,DEFICIENT_RESPONSE,"¿Tiempo límite de qué?,"
+317,2021-2,BIBLIOTECA,VARIABLES,317,numero de copias por libro,INCOMPLETE,CONSTANT_AS_VARIABLE,"El número de copias es distinto entre libros, pero es el mismo para cada libro.,"
+318,2021-2,BIBLIOTECA,VARIABLES,318,"libro necesitado: Determina el código del libro, su ubicación, y  disponibilidad.",INSTRUCTION,DEFICIENT_RESPONSE,"Esto es un conjunto de datos. La ubicación del libro es constante, la disponibilidad es lo mismo del estado y el código es una constante,"
+319,2021-2,BIBLIOTECA,VARIABLES,319,ubicacion del libro,INCOMPLETE,CONSTANT_AS_VARIABLE,"Esto es una constante, la marca o código de la ubicación del libro siempre es la misma.,"
+320,2020-2,CURSO,VARIABLES,320,Identidad de estudiantes,INCOMPLETE,NON_ESSENTIAL_ABSTRACTION,

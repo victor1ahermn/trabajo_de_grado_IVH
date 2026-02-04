@@ -1,0 +1,227 @@
+ANSWER_ID,SEMESTER,SYSTEM_ID,RESPONSE_CATEGORY_ID,ANSWER_TEXT,ERROR_CATEGORY_ID,ERROR_SUBCATEGORY_ID,FEEDBACK
+118,2021-2,CONCIERTO_ESTADIO,PURPOSE,Permitir la realización de un concierto para que el público disfrute una presentación musical en un estadio.,OK,OK,
+119,2021-2,CONCIERTO_ESTADIO,PURPOSE,Brindar un espacio organizado y seguro para presentar música en vivo a un gran número de asistentes.,OK,OK,
+120,2021-2,CONCIERTO_ESTADIO,PURPOSE,"Ofrecer una experiencia de entretenimiento musical, gestionando ingreso, ubicaciones y logística del evento.",OK,OK,
+121,2021-2,CONCIERTO_ESTADIO,PURPOSE,"Coordinar un evento musical masivo asegurando sonido, escenario, acceso y control de asistentes.",OK,OK,
+122,2021-2,CONCIERTO_ESTADIO,PURPOSE,"Garantizar que el concierto se realice de manera ordenada, segura y disfrutable para el público.",OK,OK,
+123,2021-2,CONCIERTO_ESTADIO,PURPOSE,Es un concierto en un estadio.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Describe qué es, pero no el propósito. Explica para qué se organiza y qué busca lograr."
+124,2021-2,CONCIERTO_ESTADIO,PURPOSE,Sirve para cantar canciones.,INSTRUCTIONS,DEFICIENT_RESPONSE,Muy general. Indica el objetivo del evento y el beneficio para asistentes/organización.
+125,2021-2,CONCIERTO_ESTADIO,PURPOSE,La gente va a ver artistas.,INSTRUCTIONS,DEFICIENT_RESPONSE,Falta explicar el propósito del sistema y qué necesidad satisface.
+126,2021-2,CONCIERTO_ESTADIO,PURPOSE,Es para que haya música.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Explica finalidad y qué se busca lograr con el evento.
+127,2021-2,CONCIERTO_ESTADIO,PURPOSE,Es un evento masivo.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica propósito. Indica para qué se realiza y qué función cumple.
+128,2021-2,CONCIERTO_ESTADIO,PURPOSE,Es importante para divertir.,INSTRUCTIONS,DEFICIENT_RESPONSE,Vago. Redacta un propósito claro y específico.
+129,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,"Los asistentes compran boletas, ingresan por los accesos, se ubican en sus puestos y disfrutan la presentación en tarima.",OK,OK,
+130,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,"El público pasa controles de entrada, entra al estadio, sigue señalización, se ubica y escucha el concierto.",OK,OK,
+131,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,"Los organizadores habilitan accesos, el público entra, se ubica y el artista se presenta con apoyo de sonido e iluminación.",OK,OK,
+132,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,"El usuario muestra su boleta, pasa el control, entra, busca su zona y permanece durante la presentación.",OK,OK,
+133,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,La gente entra y ve el concierto.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy general. Describe acciones concretas: compra, ingreso, control, ubicación, salida."
+134,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,Se hace un concierto.,INSTRUCTIONS,DEFICIENT_RESPONSE,"No explica interacción. Indica cómo participan asistentes, accesos, boletas y presentación."
+135,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,Las personas escuchan música.,INSTRUCTIONS,DEFICIENT_RESPONSE,Falta describir el proceso del evento y cómo interactúan con el sistema.
+136,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,Los asistentes llegan y ya.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Incompleto. Describe el flujo de entrada, ubicación y participación en el concierto."
+137,2021-2,CONCIERTO_ESTADIO,INTERACTIONS,Todo funciona con el artista.,INSTRUCTIONS,DEFICIENT_RESPONSE,No describe interacciones ni componentes involucrados en el evento.
+138,2021-2,DOMINO,PURPOSE,Permitir el entretenimiento de los jugadores mediante un juego de fichas con reglas definidas.,OK,OK,
+139,2021-2,DOMINO,PURPOSE,Ofrecer un juego de mesa donde los jugadores compiten colocando fichas según coincidencias numéricas.,OK,OK,
+140,2021-2,DOMINO,PURPOSE,Brindar una actividad recreativa en la que se usan fichas para jugar por turnos siguiendo reglas.,OK,OK,
+141,2021-2,DOMINO,PURPOSE,Facilitar un juego de estrategia ligera donde se gana al quedarse sin fichas primero.,OK,OK,
+142,2021-2,DOMINO,PURPOSE,Permitir una dinámica de juego por turnos donde se conectan fichas compatibles para avanzar.,OK,OK,
+143,2021-2,DOMINO,PURPOSE,Ofrecer entretenimiento y competencia mediante la colocación de fichas según el valor de sus extremos.,OK,OK,
+144,2021-2,DOMINO,PURPOSE,Proporcionar un juego de fichas para que varios jugadores participen y sigan reglas de colocación.,OK,OK,
+145,2021-2,DOMINO,PURPOSE,Es un juego de mesa.,INSTRUCTIONS,DEFICIENT_RESPONSE,Solo lo describe. Explica el propósito: entretener mediante fichas y reglas.
+146,2021-2,DOMINO,PURPOSE,Sirve para jugar.,INSTRUCTIONS,DEFICIENT_RESPONSE,Muy general. Explica qué se busca lograr y cómo se usa el sistema.
+147,2021-2,DOMINO,PURPOSE,Es para pasar el rato.,INSTRUCTIONS,DEFICIENT_RESPONSE,Vago. Redacta un propósito claro del juego.
+148,2021-2,DOMINO,PURPOSE,Se trata de fichas.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica finalidad. Indica el propósito del sistema y el objetivo del juego.
+149,2021-2,DOMINO,PURPOSE,Es un entretenimiento.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Explica en qué consiste el propósito del juego.
+150,2021-2,DOMINO,PURPOSE,Es un juego de números.,INSTRUCTIONS,DEFICIENT_RESPONSE,Ambiguo. Explica para qué sirve y qué hacen los jugadores.
+151,2021-2,DOMINO,INTERACTIONS,"Los jugadores mezclan fichas, reparten, colocan una ficha por turno que coincida con los extremos y toman del pozo si no pueden jugar.",OK,OK,
+152,2021-2,DOMINO,INTERACTIONS,"Cada jugador en su turno pone una ficha compatible; si no tiene, roba una ficha y continúa hasta terminar fichas o bloquearse.",OK,OK,
+153,2021-2,DOMINO,INTERACTIONS,"Los jugadores toman fichas, inician con una ficha, luego conectan fichas por coincidencia y siguen turnos hasta que alguien gane.",OK,OK,
+154,2021-2,DOMINO,INTERACTIONS,"En cada turno un jugador coloca una ficha que haga match con el extremo disponible; si no puede, toma una del pozo.",OK,OK,
+155,2021-2,DOMINO,INTERACTIONS,Los jugadores juegan por turnos colocando fichas según las reglas y contando puntos al finalizar.,OK,OK,
+156,2021-2,DOMINO,INTERACTIONS,"Se barajan fichas, se reparten y los jugadores van colocando fichas que coincidan hasta que uno se quede sin fichas.",OK,OK,
+157,2021-2,DOMINO,INTERACTIONS,Los jugadores juegan.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy general. Describe el flujo: repartir, turnos, colocar fichas, robar, ganar."
+158,2021-2,DOMINO,INTERACTIONS,Se ponen fichas.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Incompleto. Explica cómo se colocan, en qué orden y bajo qué reglas."
+159,2021-2,DOMINO,INTERACTIONS,La gente se entretiene.,INSTRUCTIONS,DEFICIENT_RESPONSE,No describe interacciones. Indica acciones concretas con fichas y turnos.
+160,2021-2,DOMINO,INTERACTIONS,Se juega con números.,INSTRUCTIONS,DEFICIENT_RESPONSE,Vago. Describe el proceso del juego y la interacción con fichas.
+161,2021-2,DOMINO,INTERACTIONS,Los jugadores ganan.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica cómo se llega a ganar ni qué acciones ocurren durante el juego.
+162,2021-2,DOMINO,INTERACTIONS,El juego funciona por turnos.,INSTRUCTIONS,DEFICIENT_RESPONSE,Falta describir qué hace un jugador en su turno y cómo usa las fichas.
+163,2021-2,PARQUES,PURPOSE,"Brindar un espacio para la recreación, el descanso y actividades al aire libre para la comunidad.",OK,OK,
+164,2021-2,PARQUES,PURPOSE,Permitir que las personas se relajen y realicen actividades recreativas en un entorno abierto y seguro.,OK,OK,
+165,2021-2,PARQUES,PURPOSE,"Ofrecer zonas verdes y espacios de uso público para recreación, caminatas y esparcimiento.",OK,OK,
+166,2021-2,PARQUES,PURPOSE,Promover el bienestar proporcionando un lugar para actividades recreativas y descanso.,OK,OK,
+167,2021-2,PARQUES,PURPOSE,Servir como lugar de encuentro y recreación para personas de todas las edades.,OK,OK,
+168,2021-2,PARQUES,PURPOSE,Es un lugar al aire libre.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Describe el lugar, no el propósito. Explica para qué sirve el parque para las personas."
+169,2021-2,PARQUES,PURPOSE,Tiene árboles y zonas verdes.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Enumera características, pero no el propósito. Indica la finalidad del sistema."
+170,2021-2,PARQUES,PURPOSE,Es un sitio público.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Vago. Describe el propósito: recreación, descanso, actividades."
+171,2021-2,PARQUES,INTERACTIONS,"Las personas usan senderos para caminar, utilizan zonas de juego y hacen uso de bancas y espacios para descansar.",OK,OK,
+172,2021-2,PARQUES,INTERACTIONS,"Los visitantes entran al parque, recorren caminos, usan juegos o canchas y descansan en áreas verdes.",OK,OK,
+173,2021-2,PARQUES,INTERACTIONS,"Las personas llegan, utilizan los espacios recreativos (juegos/canchas) y luego se retiran.",OK,OK,
+174,2021-2,PARQUES,INTERACTIONS,"Los usuarios interactúan usando juegos, canchas y zonas verdes para actividades de recreación y descanso.",OK,OK,
+175,2021-2,PARQUES,INTERACTIONS,La gente visita el parque.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy general. Describe cómo usan los espacios: senderos, juegos, canchas, bancas."
+176,2021-2,PARQUES,INTERACTIONS,Las personas van a pasear.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Explica acciones concretas y uso de elementos del sistema.
+177,2021-2,PARQUES,INTERACTIONS,Se usa para recrearse.,INSTRUCTIONS,DEFICIENT_RESPONSE,No describe interacciones específicas con componentes/espacios del parque.
+178,2021-2,PARQUES,INTERACTIONS,Los usuarios se divierten.,INSTRUCTIONS,DEFICIENT_RESPONSE,Vago. Describe actividades y cómo usan las áreas del parque.
+179,2021-2,PUNTO_COVID,PURPOSE,Realizar pruebas o controles de salud para detectar casos y ayudar a prevenir contagios en la comunidad.,OK,OK,
+180,2021-2,PUNTO_COVID,PURPOSE,"Brindar atención y evaluación relacionada con COVID, registrando y gestionando resultados de pruebas.",OK,OK,
+181,2021-2,PUNTO_COVID,PURPOSE,Facilitar el diagnóstico y control de casos mediante toma de muestras y entrega de resultados.,OK,OK,
+182,2021-2,PUNTO_COVID,PURPOSE,Apoyar la prevención al identificar posibles contagios y orientar a las personas según resultados.,OK,OK,
+183,2021-2,PUNTO_COVID,PURPOSE,Permitir la atención organizada de personas para pruebas y seguimiento de COVID.,OK,OK,
+184,2021-2,PUNTO_COVID,PURPOSE,Garantizar un proceso ordenado para realizar pruebas y registrar datos de las personas atendidas.,OK,OK,
+185,2021-2,PUNTO_COVID,PURPOSE,Es un lugar de salud.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Vago. Explica la finalidad: pruebas, detección, registro y prevención de contagios."
+186,2021-2,PUNTO_COVID,PURPOSE,Sirve para atender gente.,INSTRUCTIONS,DEFICIENT_RESPONSE,No es específico. Indica qué atención se brinda y con qué objetivo.
+187,2021-2,PUNTO_COVID,PURPOSE,Es para el COVID.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Explica qué se hace en el punto y para qué.
+188,2021-2,PUNTO_COVID,PURPOSE,Se usa para hacer pruebas.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Falta contexto y propósito completo: detección, control y orientación."
+189,2021-2,PUNTO_COVID,PURPOSE,Es un sitio de pruebas.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Describe, pero no explica el propósito y el beneficio del sistema."
+190,2021-2,PUNTO_COVID,PURPOSE,Ayuda a la pandemia.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy general. Indica cómo ayuda: detectar, registrar y orientar."
+191,2021-2,PUNTO_COVID,PURPOSE,Es para revisar personas.,INSTRUCTIONS,DEFICIENT_RESPONSE,Ambiguo. Explica qué se revisa y cuál es el objetivo del proceso.
+192,2021-2,PUNTO_COVID,PURPOSE,Sirve para controlar.,INSTRUCTIONS,DEFICIENT_RESPONSE,No se entiende qué controla. Redacta el propósito de forma completa.
+193,2021-2,PUNTO_COVID,INTERACTIONS,"Las personas llegan, se registran, se les toma muestra o se les realiza la prueba y reciben indicaciones o resultados.",OK,OK,
+194,2021-2,PUNTO_COVID,INTERACTIONS,"El usuario se registra, responde preguntas, se toma la prueba y luego recibe el resultado o seguimiento según el caso.",OK,OK,
+195,2021-2,PUNTO_COVID,INTERACTIONS,"Los pacientes hacen fila, entregan datos, reciben la prueba y esperan el resultado siguiendo el protocolo.",OK,OK,
+196,2021-2,PUNTO_COVID,INTERACTIONS,"Se valida la identidad, se realiza el procedimiento de prueba y se registra el resultado en el sistema.",OK,OK,
+197,2021-2,PUNTO_COVID,INTERACTIONS,"Las personas llegan, se atienden y reciben indicaciones.",OK,OK,
+198,2021-2,PUNTO_COVID,INTERACTIONS,"El personal registra al paciente, realiza la prueba y comunica el resultado según el proceso definido.",OK,OK,
+199,2021-2,PUNTO_COVID,INTERACTIONS,Las personas van al punto covid.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy general. Describe el flujo: registro, evaluación, prueba, resultado."
+200,2021-2,PUNTO_COVID,INTERACTIONS,Se hacen pruebas.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Explica cómo se registra al usuario y cómo recibe el resultado.
+201,2021-2,PUNTO_COVID,INTERACTIONS,La gente llega y ya.,INSTRUCTIONS,DEFICIENT_RESPONSE,Falta describir acciones concretas del usuario y del personal.
+202,2021-2,PUNTO_COVID,INTERACTIONS,El sistema atiende.,INSTRUCTIONS,DEFICIENT_RESPONSE,No describe interacciones específicas ni pasos del proceso.
+203,2021-2,PUNTO_COVID,INTERACTIONS,Las personas se revisan.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Vago. Indica qué se hace: registro, preguntas, prueba, resultados."
+204,2021-2,PUNTO_COVID,INTERACTIONS,Se controla el COVID.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica el proceso de interacción. Describe las acciones del usuario.
+205,2021-2,PUNTO_COVID,INTERACTIONS,Los usuarios esperan.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Se requiere describir el flujo completo del servicio.
+206,2021-2,PUNTO_COVID,INTERACTIONS,El personal hace su trabajo.,INSTRUCTIONS,DEFICIENT_RESPONSE,"No explica cómo interactúan usuario, registro, prueba y resultados."
+207,2021-2,SALON,PURPOSE,Permitir el desarrollo de actividades de enseñanza y aprendizaje en un espacio organizado.,OK,OK,
+1,2021-1,CONCIERTO_ESTADIO,PURPOSE,Crear intereses propios para la banda. Generar ganancias economicas. Generar empleo para las personas que colaboran en el estadio. Dar un buen servicio para que los asistentes disfruten el show. Dar una buena presentacion para compartir musica y disfrutar de ella.,OK,OK,
+2,2021-1,CONCIERTO_ESTADIO,PURPOSE,"servir como medio de entretenimiento en vivo masivo, donde por medio de música y artistas  musicales hacen un show para que la gente se entretenga",OK,OK,
+3,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,La banda toca los instrumentos para crear la musica,OK,OK,
+4,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,La banda se presenta en un estadio para tener mas admiradores,OK,OK,
+5,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,El estadio genera ingreso con mas personas,OK,OK,
+6,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,Los sistemas de audio deben estar funcionando correctamente para que puedan favorecer  a la gente y a la banda,OK,OK,
+7,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,El escenario debe ser amplio para que se puedan movilizar al actuar,OK,OK,
+8,2021-1,SALON,PURPOSE,Ofrecer un servicio educativo a los estudiantes,OK,OK,
+9,2021-1,SALON,PURPOSE,Favorecer a los estudiantes con una educación de alta calidad,OK,OK,
+10,2021-1,SALON,PURPOSE,La enseñanza de la moral,INCOMPLETE,DEFICIENT_RESPONSE,"Esto no es el propósito general de un salón de clases,"
+11,2021-1,SALON,PURPOSE,Satisfacer el tiempo del profesor,INCOMPLETE,DEFICIENT_RESPONSE,"Esta no es la razón por la cual uno va al salón de clase,"
+12,2021-1,SALON,INTERACTIONS,El profesor le enseña a los estudiantes,OK,OK,
+13,2021-1,SALON,INTERACTIONS,El profesor enseña la materia,OK,OK,
+14,2021-1,SALON,INTERACTIONS,Los estudiantes siguen el horario,INCOMPLETE,DEFICIENT_RESPONSE,"El horario no es un componente esencial del sistema,"
+15,2021-1,SALON,INTERACTIONS,Los estudiantes siguen las reglas,INCOMPLETE,DEFICIENT_RESPONSE,"Las reglas no son un parte necesaria para el funcionamiento del sistema,"
+16,2021-2,DOMINO,PURPOSE,Juego de mesa para entretener,INSTRUCTION,DEFICIENT_RESPONSE,"Tratar de ser más detallado con la información. A quién le sirve este sistema o cómo afecta o influye en los componentes.,"
+17,2021-2,DOMINO,INTERACTIONS,"Al inicio del juego, las fichas se mezclan y los participantes toman sus fichas. La partida comienza según el valor de las fichas de los jugadores. Los turnos se realizan en un orden establecido y cada jugador coloca fichas compatibles en la mesa. El juego finaliza cuando uno de los participantes logra colocar todas sus fichas.",OK,OK,
+18,2021-2,ASCENSORES,PURPOSE,sistema que facilita la movilización del edificio,OK,OK,
+19,2021-2,ASCENSORES,INTERACTIONS,las personas entran a la cabina donde presionan un botón en cuadro de mando luego se cierra el operador de puerta que hace parte esencial para el funcionamiento del ascensor luego el ascensor se pone en marcha (arriba o abajo) gracias a la interacción que tienen las partes para el funcionamiento del ascensor.,OK,OK,
+20,2021-2,DOMINO,PURPOSE,"Brindar un espacio de diversion, en el cual varias personas puedan jugar, distraerse, y compartir  con sus amigos",OK,OK,
+21,2021-1,DOMINO,INTERACTIONS,primero se inicia el juego ubicandose los jugadores en la mesa donde se encuentran las fichas listas para ser repartidas y acuerdan reglas,INSTRUCTION,DEFICIENT_RESPONSE,"La interaccion no describe claramente como interactuan todos los componentes del sistema.,"
+22,2021-1,BIBLIOTECA,PURPOSE,lugar tranquilo con libros con fines academicos y de entretenimiento,OK,OK,
+23,2021-1,BIBLIOTECA,INTERACTIONS,las personas buscan libros se ubican en mesas y solicitan prestamos,OK,OK,
+24,2021-2,DOMINO,INTERACTIONS,"Se asigna un jugador que revuelva las fichas, cada jugador toma 7 fichas. Inicia la ronda el jugador que tenga la ficha con el doble mas alto. En caso de que ninguno tenga dobles, comenzara el que tenga la ficha mas alta. Los jugadores continua por turnos al contrario de las manecillas del reloj. Gana la persona que tire todas sus fichas.",OK,OK,
+25,2021-2,PUNTO_COVID,PURPOSE,"Los jugadores empiezan escogiendo fichas aleatoriamente para despues empezar a juagr de acuerdo a los numeros de las mismas. Mientras avanza el juego, se ven diversas situaciones como la acción de ¿comer¿ que es añadir una ficha del montón si las que escogiste previamente no te permiten seguir jugando",OK,OK,"Podrías haber incluido más componentes.,"
+26,2021-2,PUNTO_COVID,PURPOSE,"Vacunar de forma eficaz, ordenada, y segura, a las personas de un territorio determinado, con la vacuna contra el covid-19, la dosis que cada punto brinda para las personas, depende del tipo de vacuna que esten utilizando.",OK,OK,
+27,2021-2,PUNTO_COVID,INTERACTIONS,"El cliente llega al punto de vacunación donde se le es asignado un turno para el cual  tiene que esperar a ser atendido. Al ser llamado, el personal medico empieza su trabajo el cual es  informar al cliente y mostrarle los componentes a ser usados como la vacuna (liquido) y la jeringa  a ser usada. Por último, el cliente recibe la vacuna y regresa a su residencia.",OK,OK,
+28,2021-2,PUNTO_COVID,INTERACTIONS,"Las personas deben consultar en la pagina, cuando y donde les corresponde vacunarse, asegurarse de que no tiene sintomas de covid-19 o alguna patología que genere efectos secundarios, dirigirse al lugar asignado, siguiendo los protocolos de bioseguridad, y dejar que el medico lo vacune",OK,OK,
+29,2021-2,BIBLIOTECA,PURPOSE,"Facilitarles a las personas un espacio adecuado donde puedan leer y tener acceso a diferentes tipos de libros, artículos, etc",OK,OK,
+30,2021-2,ASCENSORES,PURPOSE,Facilitar la movilidad de personas dentro de un edificio con varios pisos mediante un sistema tecnologico y de alta eficacia,OK,OK,
+31,2021-2,ASCENSORES,INTERACTIONS,"La persona llega al ascensor, este se abre, la persona entra, selecciona el piso al que va, el ascensor mediante un complejo sistema de poleas lo lleva al piso indicado, y finalmente la persona se baja",OK,OK,
+32,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,"Los instrumentos generan sonidos al ser usados por los musicos, estos sonidos resultan agradables al oido humano",INSTRUCTION,DEFICIENT_RESPONSE,"El oido humano no fue puesto como componente,"
+33,2021-1,PARQUES,INTERACTIONS,Los jugadores usan las fichas las cuales mueven con el dado,INSTRUCTION,DEFICIENT_RESPONSE,"Las fichas se mueven con el dado?,"
+34,2021-1,CONCIERTO_ESTADIO,PURPOSE,Ofrecer un servicio de entretenimiento,INSTRUCTION,DEFICIENT_RESPONSE,"Demasiado general,"
+35,2021-1,PARQUES,PURPOSE,Obtener un ganador,INSTRUCTION,DEFICIENT_RESPONSE,
+36,2021-1,PARQUES,PURPOSE,"El proposito del parques es ganar y para conseguir esto todas las fichas tienen que salir de la carcel para ir avanzando por todas las casillas que se encuentran en el tablero hasta llegar al Cielo, todas las fichas se mueven por medio de los dados.",OK,OK,
+37,2021-1,SALON,INTERACTIONS,El profesor les enseña a los estudiantes,INSTRUCTION,DEFICIENT_RESPONSE,
+38,2021-1,PARQUES,PURPOSE,Los jugadores deben mover sus piezas hasta lograr subir todas a la meta para ganar,INSTRUCTION,DEFICIENT_RESPONSE,"Ese es el proposito del jugador, no del sistema,"
+39,2021-1,PARQUES,PURPOSE,Tarima,OK,OK,
+40,2021-1,PARQUES,PURPOSE,Publico,OK,OK,
+41,2021-1,PARQUES,INTERACTIONS,"En el caso de que una ficha de un jugador se coloque en un lugar en la que hay otra ficha de otro jugador, se ¿atrapa¿ la ficha que ya estaba ahi y se activa la disponibilidad de sacarla de ese estado, usualmente sacando un resultado de dos dados con el mismo lado en el turno del jugador que necesite rescatar tal ficha.",INSTRUCTION,DEFICIENT_RESPONSE,"Interacciones no es lo mismo que instrucciones del sistema,"
+42,2021-1,SALON,PURPOSE,"Existe para tener un espacio especializado en ambientes académicos para poder asistir a sesiones de clase de una variedad de temas que el estudiante pueda ver, con sus respectivos profesores.",OK,OK,
+43,2021-1,PARQUES,INTERACTIONS,"JUGADOR: es el que interactúa con todas las piezas del juego y toma las decisiones. TABLERO: donde se ponen las fichas y se tiran los dados. Dados: se encargan de decirle al jugador cuanto debe avanzar una ficha dependiendo del número que salga. Fichas: su principal función es llegar a la meta para terminar el juego, además de esto le permiten al jugador saber en qué parte del tablero están sus fichas.",INSTRUCTION,DEFICIENT_RESPONSE,"Entonces así serían funciones,"
+44,2021-1,CONCIERTO_ESTADIO,PURPOSE,Entretener y divertir al público,INSTRUCTION,DEFICIENT_RESPONSE,"Demasiado general,"
+45,2021-1,SALON,PURPOSE,"Espacio usado para enseñar a estudiantes, conocimientos de materias distintas dictadas  por profesores correspondientes",INSTRUCTION,DEFICIENT_RESPONSE,"Esto es una definición del sistema, no un propósito.,"
+46,2021-1,SALON,PURPOSE,"los profesores dan clase a los alumnos y escriben en el tablero. Los estudiantes se sientan en los pupitres, observan la pizarra y prestan atención al maestro, pueden preguntar y hablar entre ellos. El aula contiene a los alumnos, pupitres, profesor y tablero.",OK,OK,
+47,2021-1,PARQUES,PURPOSE,Superar los obstaculos del tablero y enemigos con todas las fichas y ganar,INSTRUCTION,DEFICIENT_RESPONSE,"No se especifica como ganar,"
+48,2021-1,PARQUES,INTERACTIONS,generar entretenimiento a traves de una competencia,INSTRUCTION,DEFICIENT_RESPONSE,"Se podria detallar mas,"
+49,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,los musicos y el equipo de sonido hacen un show para el publico,INSTRUCTION,DEFICIENT_RESPONSE,"No se describe claramente como interactuan todos los componentes. Tratar de hacer un análisis más detallado.,"
+50,2021-1,CONCIERTO_ESTADIO,INTERACTIONS,"Que el publico al escuchar su artista y/o banda favorita, pueda bailar y cantar su musica mientras interactuan con sus amigos o familiares en el concierto.",INSTRUCTION,DEFICIENT_RESPONSE,"Las interacciones deben incluir de alguna forma todos los componentes,"
+51,2021-1,CONCIERTO_ESTADIO,PURPOSE,Que los asistentes puedan disfrutar de las música de los artistas que se están presentando.,OK,OK,
+52,2021-1,PARQUES,PURPOSE,coronar todas las fichas del jugador recorriendo el tablero,INSTRUCTION,DEFICIENT_RESPONSE,"El proposito describe el objetivo del jugador, no el proposito del sistema de juego.,"
+53,2021-1,PARQUES,PURPOSE,Ser el primero en llegar al final. Completar toda la vuelta con todas las fichas. Ganar el juego,INSTRUCTION,DEFICIENT_RESPONSE,"Falta describir el propósito general del juego.,"
+54,2021-1,PARQUES,INTERACTIONS,los jugadores usan los dados para mover fichas en el tablero,OK,OK,
+55,2021-1,PARQUES,INTERACTIONS,Cada jugador tiene 4 fichas y estas deben dar toda una vuelta para poder llegar a la meta primero,OK,OK,
+56,2021-1,PARQUES,INTERACTIONS,El tablero es el territorio de las fichas en el cual van dando los saltos para ir avanzando,OK,OK,
+57,2021-1,PARQUES,INTERACTIONS,Tirar los dados para saber la cantidad de espacios que tiene que mover la ficha,OK,OK,
+58,2021-2,DOMINO,PURPOSE,entretenimiento,INSTRUCTION,DEFICIENT_RESPONSE,"Muy general. Falta informacion. El proposito debe decir para que sirve el sistema o para que se utilizan sus componentes. Cual es el fin.,"
+59,2021-2,DOMINO,INTERACTIONS,los jugadores empiezan escogiendo fichas aleatoriamente para despues empezar a jugar de acuerdo a los numeros de las mismas,INSTRUCTION,DEFICIENT_RESPONSE,"Podrias haber incluido mas componentes.,"
+60,2021-2,ASCENSORES,PURPOSE,Permitir el traslado seguro y eficiente de personas entre diferentes pisos de un edificio.,OK,OK,
+61,2021-2,ASCENSORES,PURPOSE,Facilitar el movimiento vertical de personas dentro de una edificación de varios niveles.,OK,OK,
+62,2021-2,ASCENSORES,PURPOSE,Ayudar a que las personas suban y bajen de pisos sin esfuerzo físico excesivo.,OK,OK,
+63,2021-2,ASCENSORES,PURPOSE,"Optimizar el transporte vertical en edificios, reduciendo tiempo y esfuerzo al desplazarse.",OK,OK,
+64,2021-2,ASCENSORES,PURPOSE,Brindar accesibilidad para trasladarse entre pisos a personas con movilidad reducida.,OK,OK,
+65,2021-2,ASCENSORES,PURPOSE,"Transportar personas entre pisos de forma cómoda, rápida y ordenada.",OK,OK,
+66,2021-2,ASCENSORES,PURPOSE,Es algo que hay en los edificios.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Describe el contexto, pero no explica el propósito. Indica para qué sirve y qué necesidad resuelve."
+67,2021-2,ASCENSORES,PURPOSE,Sirve para usarlo cuando uno necesita.,INSTRUCTIONS,DEFICIENT_RESPONSE,Es muy general. Explica cuál es la función del ascensor y en qué situación se usa.
+68,2021-2,ASCENSORES,PURPOSE,Es un medio de transporte.,INSTRUCTIONS,DEFICIENT_RESPONSE,Falta especificar que es transporte vertical dentro de edificios y el beneficio que aporta.
+69,2021-2,ASCENSORES,PURPOSE,Ayuda a las personas.,INSTRUCTIONS,DEFICIENT_RESPONSE,No es claro. Indica qué hace exactamente el sistema y con qué objetivo.
+70,2021-2,ASCENSORES,PURPOSE,Permite subir y bajar.,INSTRUCTIONS,DEFICIENT_RESPONSE,Está incompleto. Explica para qué se sube/baja y por qué es útil en el sistema.
+71,2021-2,ASCENSORES,PURPOSE,Es importante en un edificio.,INSTRUCTIONS,DEFICIENT_RESPONSE,No se explica la finalidad. Describe la función concreta del ascensor.
+72,2021-2,ASCENSORES,PURPOSE,Se usa para mover gente.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy ambiguo. Aclara dónde, entre qué puntos y con qué beneficio."
+73,2021-2,ASCENSORES,PURPOSE,Es un sistema vertical.,INSTRUCTIONS,DEFICIENT_RESPONSE,Es una definición vaga. Redacta el propósito del sistema de manera completa.
+74,2021-2,ASCENSORES,INTERACTIONS,"El usuario presiona el botón para llamar el ascensor, entra a la cabina, selecciona un piso en el panel y sale al llegar.",OK,OK,
+75,2021-2,ASCENSORES,INTERACTIONS,"Las personas llaman el ascensor con los botones, esperan que se abran las puertas, ingresan y eligen el piso de destino.",OK,OK,
+76,2021-2,ASCENSORES,INTERACTIONS,"El usuario interactúa con el panel de botones para indicar el piso, el ascensor se mueve y abre puertas al llegar.",OK,OK,
+77,2021-2,ASCENSORES,INTERACTIONS,"Una persona entra cuando llega el ascensor, presiona el número del piso y sale cuando el sistema se detiene y abre las puertas.",OK,OK,
+78,2021-2,ASCENSORES,INTERACTIONS,Los usuarios usan los botones exteriores para llamarlo y los interiores para seleccionar el piso al que van.,OK,OK,
+79,2021-2,ASCENSORES,INTERACTIONS,"El usuario llama el ascensor, entra, selecciona piso y espera hasta que el sistema complete el recorrido y abra puertas.",OK,OK,
+80,2021-2,ASCENSORES,INTERACTIONS,Las personas suben y llegan a donde van.,INSTRUCTIONS,DEFICIENT_RESPONSE,"No describe la interacción con componentes (botones, puertas, cabina). Explica el proceso paso a paso."
+81,2021-2,ASCENSORES,INTERACTIONS,El ascensor transporta personas.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Describe el resultado, no la interacción. Indica cómo el usuario usa el sistema."
+82,2021-2,ASCENSORES,INTERACTIONS,Las personas lo usan para subir y bajar.,INSTRUCTIONS,DEFICIENT_RESPONSE,Falta detallar acciones concretas y componentes involucrados.
+83,2021-2,ASCENSORES,INTERACTIONS,El sistema se mueve entre pisos.,INSTRUCTIONS,DEFICIENT_RESPONSE,No menciona cómo el usuario interactúa con el sistema para que ocurra el movimiento.
+84,2021-2,ASCENSORES,INTERACTIONS,La gente entra y ya.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Es muy incompleto. Describe cómo se llama el ascensor, cómo se elige el piso y qué ocurre al llegar."
+85,2021-2,ASCENSORES,INTERACTIONS,Funciona automáticamente.,INSTRUCTIONS,DEFICIENT_RESPONSE,No se explica la interacción usuario-sistema. Indica qué hace el usuario y qué responde el sistema.
+86,2021-2,ASCENSORES,INTERACTIONS,Los usuarios usan el ascensor.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Es demasiado general. Explica el flujo: llamar, entrar, elegir piso, salir."
+87,2021-2,ASCENSORES,INTERACTIONS,Las personas entran y salen.,INSTRUCTIONS,DEFICIENT_RESPONSE,Falta describir el uso de componentes y el orden de acciones.
+88,2021-2,BIBLIOTECA,PURPOSE,Facilitar el acceso organizado a libros y recursos para apoyar el estudio y la investigación.,OK,OK,
+89,2021-2,BIBLIOTECA,PURPOSE,"Permitir que los usuarios consulten, encuentren y soliciten material bibliográfico de forma ordenada.",OK,OK,
+90,2021-2,BIBLIOTECA,PURPOSE,Brindar un servicio de préstamo y consulta de libros para la comunidad universitaria.,OK,OK,
+91,2021-2,BIBLIOTECA,PURPOSE,Apoyar el aprendizaje ofreciendo recursos y espacios de consulta para estudiantes y profesores.,OK,OK,
+92,2021-2,BIBLIOTECA,PURPOSE,"Organizar y prestar materiales (libros, revistas) para su consulta por parte de los usuarios.",OK,OK,
+93,2021-2,BIBLIOTECA,PURPOSE,Garantizar disponibilidad y control de préstamos de libros y otros recursos.,OK,OK,
+94,2021-2,BIBLIOTECA,PURPOSE,Es un lugar con libros.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Eso describe qué es, pero no el propósito. Explica para qué existe y qué servicio presta."
+95,2021-2,BIBLIOTECA,PURPOSE,Sirve para leer.,INSTRUCTIONS,DEFICIENT_RESPONSE,Muy general. Indica cómo la biblioteca apoya estudio/investigación y qué función cumple.
+96,2021-2,BIBLIOTECA,PURPOSE,Es para estudiantes.,INSTRUCTIONS,DEFICIENT_RESPONSE,"No explica la finalidad. Redacta qué permite hacer (consultar, prestar, organizar recursos)."
+97,2021-2,BIBLIOTECA,PURPOSE,Hay libros y una va y lee.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Incompleto. Describe el servicio: búsqueda, préstamo, consulta y organización."
+98,2021-2,BIBLIOTECA,PURPOSE,Es una sala de libros.,INSTRUCTIONS,DEFICIENT_RESPONSE,Definición vaga. Explica propósito y beneficio para los usuarios.
+99,2021-2,BIBLIOTECA,PURPOSE,Sirve para estudiar.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Falta especificar cómo: consulta de recursos, préstamo, acceso a información."
+100,2021-2,BIBLIOTECA,PURPOSE,Es un edificio de la universidad.,INSTRUCTIONS,DEFICIENT_RESPONSE,No es un propósito. Explica la función del sistema y el servicio que ofrece.
+101,2021-2,BIBLIOTECA,PURPOSE,Es un sistema de libros.,INSTRUCTIONS,DEFICIENT_RESPONSE,Muy ambiguo. Indica qué permite hacer al usuario y para qué se usa.
+102,2021-2,BIBLIOTECA,INTERACTIONS,"El usuario busca un libro en el catálogo, lo solicita al personal, lo recibe en préstamo y luego lo devuelve.",OK,OK,
+103,2021-2,BIBLIOTECA,INTERACTIONS,"Los usuarios consultan el catálogo, ubican el libro, registran el préstamo y lo retornan dentro del tiempo establecido.",OK,OK,
+104,2021-2,BIBLIOTECA,INTERACTIONS,"Una persona pide un libro, lo toma prestado, lo usa y después lo entrega de vuelta para cerrar el préstamo.",OK,OK,
+105,2021-2,BIBLIOTECA,INTERACTIONS,"El usuario interactúa con el sistema al buscar disponibilidad, solicitar préstamo y realizar la devolución.",OK,OK,
+106,2021-2,BIBLIOTECA,INTERACTIONS,"Los usuarios consultan recursos, solicitan préstamos y cumplen el proceso de devolución según las reglas.",OK,OK,
+107,2021-2,BIBLIOTECA,INTERACTIONS,"El usuario consulta el catálogo, solicita el material y realiza la devolución al finalizar.",OK,OK,
+108,2021-2,BIBLIOTECA,INTERACTIONS,Los usuarios entran a la biblioteca y leen.,OK,OK,
+109,2021-2,BIBLIOTECA,INTERACTIONS,El sistema presta libros y registra el préstamo.,OK,OK,
+110,2021-2,BIBLIOTECA,INTERACTIONS,Las personas usan la biblioteca.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy general. Describe acciones concretas: buscar, solicitar, prestar, devolver."
+111,2021-2,BIBLIOTECA,INTERACTIONS,Se interactúa con libros.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Explica el flujo de préstamo/consulta y devolución.
+112,2021-2,BIBLIOTECA,INTERACTIONS,El usuario va y ya.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Falta describir cómo el usuario usa el sistema: catálogo, préstamo, devolución."
+113,2021-2,BIBLIOTECA,INTERACTIONS,Los estudiantes estudian.,INSTRUCTIONS,DEFICIENT_RESPONSE,No se describen interacciones con componentes o procesos del sistema.
+114,2021-2,BIBLIOTECA,INTERACTIONS,La biblioteca funciona con libros.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica las acciones del usuario ni el proceso de préstamo/consulta.
+115,2021-2,BIBLIOTECA,INTERACTIONS,Se piden cosas.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Ambiguo. Indica qué se pide, cómo se registra y cómo se devuelve."
+116,2021-2,BIBLIOTECA,INTERACTIONS,El sistema ayuda a leer.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica interacción usuario-sistema. Describe el proceso de uso.
+117,2021-2,BIBLIOTECA,INTERACTIONS,Las personas se sientan a leer.,INSTRUCTIONS,DEFICIENT_RESPONSE,"No describe el sistema de préstamos/consulta, solo una actividad dentro del lugar."
+208,2021-2,SALON,PURPOSE,Proporcionar un espacio adecuado para impartir clases y que los estudiantes reciban formación.,OK,OK,
+209,2021-2,SALON,PURPOSE,Facilitar la interacción educativa entre profesor y estudiantes para el aprendizaje.,OK,OK,
+210,2021-2,SALON,PURPOSE,"Brindar un entorno para realizar clases, explicaciones y actividades académicas.",OK,OK,
+211,2021-2,SALON,PURPOSE,Es un lugar donde se estudia.,INSTRUCTIONS,DEFICIENT_RESPONSE,Vago. Explica el propósito: permitir enseñar y aprender mediante clases.
+212,2021-2,SALON,PURPOSE,Es un sitio para clases.,INSTRUCTIONS,DEFICIENT_RESPONSE,Incompleto. Indica para qué sirve y qué objetivo cumple en la educación.
+213,2021-2,SALON,PURPOSE,Sirve para aprender.,INSTRUCTIONS,DEFICIENT_RESPONSE,Muy general. Describe el propósito del salón de manera más específica.
+214,2021-2,SALON,PURPOSE,Es un espacio académico.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica la función. Indica el propósito y el beneficio para el proceso educativo.
+215,2021-2,SALON,PURPOSE,Es un lugar en la universidad.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Describe ubicación, no propósito. Explica para qué sirve el sistema."
+216,2021-2,SALON,INTERACTIONS,"El profesor explica el tema, usa el tablero o proyector y los estudiantes escuchan, preguntan y toman apuntes.",OK,OK,
+217,2021-2,SALON,INTERACTIONS,"Los estudiantes se sientan, el profesor dicta la clase, se usan tablero/material y se realizan actividades durante la sesión.",OK,OK,
+218,2021-2,SALON,INTERACTIONS,"El profesor presenta información, los estudiantes participan y usan cuadernos o computadores para realizar tareas.",OK,OK,
+219,2021-2,SALON,INTERACTIONS,"Los estudiantes interactúan escuchando al profesor, tomando notas y usando el tablero como apoyo durante la clase.",OK,OK,
+220,2021-2,SALON,INTERACTIONS,En el salón se hace clase: el profesor explica y los estudiantes realizan actividades y preguntas.,OK,OK,
+221,2021-2,SALON,INTERACTIONS,El profesor enseña usando el tablero y los estudiantes escriben apuntes y responden ejercicios.,OK,OK,
+222,2021-2,SALON,INTERACTIONS,Los estudiantes están en clase.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Muy general. Describe acciones concretas: enseñar, escuchar, usar tablero, tomar notas."
+223,2021-2,SALON,INTERACTIONS,Se da una clase.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Incompleto. Indica cómo interactúan profesor, estudiantes y recursos del salón."
+224,2021-2,SALON,INTERACTIONS,El profesor habla.,INSTRUCTIONS,DEFICIENT_RESPONSE,No describe la interacción completa ni el uso de elementos del sistema.
+225,2021-2,SALON,INTERACTIONS,Los estudiantes aprenden.,INSTRUCTIONS,DEFICIENT_RESPONSE,No explica el proceso de interacción ni actividades dentro del salón.
+226,2021-2,SALON,INTERACTIONS,Todos están ahí.,INSTRUCTIONS,DEFICIENT_RESPONSE,"Vago. Describe acciones y cómo se usan elementos como sillas, tablero o material."
