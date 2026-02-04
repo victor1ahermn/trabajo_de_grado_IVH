@@ -13,6 +13,7 @@ automático (SVM), clasificación basada en reglas y técnicas de procesamiento 
 ```text
 ├── api/
 │   ├── app/
+│   │   ├── __init__.py
 │   │   ├── config.py
 │   │   ├── feedback.py
 │   │   ├── main.py
@@ -21,13 +22,17 @@ automático (SVM), clasificación basada en reglas y técnicas de procesamiento 
 │   │   ├── rules_engine.py
 │   │   └── schemas.py
 │   ├── artifacts/
+│   │   ├── svm_model.joblib
+│   │   ├── vectorizer.joblib
 │   ├── data/
-│   ├── venv/
-│   ├── requirements.txt
-│   ├── Procfile
-│   ├── nixpacks.toml
+│   │   ├── referential_base.csv
+│   ├── .env.example
 │   ├── .python-version
-│   └── README.md
+│   ├── .railwayignore
+│   ├── Procfile
+│   ├── README.md
+│   ├── nixpacks.toml
+│   └── requirements.txt
 │
 ├── oracle_apex/
 │   ├── app_export/
@@ -38,9 +43,9 @@ automático (SVM), clasificación basada en reglas y técnicas de procesamiento 
 │   │   ├── ASSIGNMENTS.sql
 │   │   ├── ERROR_TYPES.sql
 │   │   ├── FEEDBACK.sql
+│   │   ├── RESPONSES.sql 
 │   │   ├── RESPONSE_CATEGORIES.sql
 │   │   ├── RESPONSE_ERRORS.sql
-│   │   ├── RESPONSES.sql
 │   │   └── SYSTEMS.sql
 │   ├── ERD_THESIS.png
 │   └── README.md
@@ -53,6 +58,7 @@ automático (SVM), clasificación basada en reglas y técnicas de procesamiento 
 │
 ├── .gitignore
 └── README.md
+<b>```</b>
 
 ## 📁 Estructura del repositorio
 
