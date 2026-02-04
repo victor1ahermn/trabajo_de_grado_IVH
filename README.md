@@ -56,6 +56,11 @@ automático (SVM), clasificación basada en reglas y técnicas de procesamiento 
 │   ├── referential_base.csv
 │   └── metrics_base.csv
 │
+├── models/
+│   ├── svm_tesis.ipynb
+│   ├── logistic_tesis.ipynb
+│   └── rules_tesis.ipynb
+│
 ├── .gitignore
 └── README.md
 ```
@@ -109,6 +114,21 @@ Incluye los conjuntos de datos utilizados durante el desarrollo y evaluación de
 - referential_base: Base referencial utilizada por el motor de reglas.
 - metrics_base: Conjunto de datos empleado como *ground of truth* para la evaluación del clasificador basado en reglas.
 
+---
+
+### `/models`
+
+Contiene los cuadernos de Jupyter (desarrollados en Google Colab) para el entrenamiento, evaluación y comparación de los clasificadores pensados para el prototipo.
+
+**Contenido:**
+
+- `svm_tesis.ipynb`: entrenamiento y evaluación del clasificador SVM lineal.
+- `logistic_tesis.ipynb`: entrenamiento y evaluación del clasificador de regresión logística.
+- `rules_tesis.ipynb`: evaluación del clasificador basado en reglas.
+
+Estos cuadernos **no forman parte del sistema en producción**.
+
+
 ## ⚙️ Requerimientos del proyecto
 
 Para ejecutar o desplegar el prototipo se requieren los siguientes componentes:
@@ -136,5 +156,13 @@ Las dependencias específicas del backend se encuentran definidas en el archivo
 ### Datos
 - Los conjuntos de datos utilizados para entrenamiento y evaluación del prototipo
   se encuentran disponibles en el directorio `datasets/`.
+
+---
+
+### Entrenamiento y evaluación de modelos
+
+- **Google Colab** ara ejecutar los cuadernos Jupyter
+
+
 
 
