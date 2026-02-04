@@ -104,6 +104,37 @@ Incluye los conjuntos de datos utilizados durante el desarrollo y evaluación de
 
 **Contenido:**
 
-- Dataset(s) utilizados para el entrenamiento del clasificador de aprendizaje automático.
-- Base referencial utilizada por el motor de reglas.
-- Conjunto de datos empleado como *ground truth* para la evaluación del clasificador basado en reglas.
+- primer_dataset.csv: dataset construido inicialmente antes de cambiar la taxonomía del proyecto.
+- segundo_dataset.csv: Dataset utilizado para el entrenamiento svm y regresión logística.
+- referential_base: Base referencial utilizada por el motor de reglas.
+- metrics_base: Conjunto de datos empleado como *ground of truth* para la evaluación del clasificador basado en reglas.
+
+## ⚙️ Requerimientos del proyecto
+
+Para ejecutar o desplegar el prototipo se requieren los siguientes componentes:
+
+### Backend (API)
+- **Python 3.11.9**
+- **Gestor de dependencias:** `pip`
+- **Clave de API de OpenAI**, configurada como variable de entorno:
+  - `OPENAI_API_KEY`
+
+Las dependencias específicas del backend se encuentran definidas en el archivo
+`api/requirements.txt`.
+
+---
+
+### Frontend (Oracle APEX)
+- **Instancia de Oracle APEX** (local o en Oracle Cloud)
+- **Oracle Database** asociada a la instancia APEX
+- Importación de la aplicación mediante el export incluido en `oracle_apex/app_export/`
+- Creación del esquema de base de datos utilizando los scripts SQL disponibles en
+  `oracle_apex/schema/`
+
+---
+
+### Datos
+- Los conjuntos de datos utilizados para entrenamiento y evaluación del prototipo
+  se encuentran disponibles en el directorio `datasets/`.
+
+
