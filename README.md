@@ -58,7 +58,7 @@ automático (SVM), clasificación basada en reglas y técnicas de procesamiento 
 │
 ├── .gitignore
 └── README.md
-<b>```</b>
+```
 
 ## 📁 Estructura del repositorio
 
